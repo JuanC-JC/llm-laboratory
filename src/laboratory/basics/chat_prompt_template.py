@@ -1,6 +1,6 @@
 from langchain_ollama import ChatOllama
 from langchain_core.prompts import ChatPromptTemplate
-from helpers.chat_helper import chat_helpers
+from src.helpers.chat_helper import chat_helpers
 
 tutor_template = ChatPromptTemplate.from_messages([
     ("system", "Eres un tutor paciente que explica conceptos de {subject}"),

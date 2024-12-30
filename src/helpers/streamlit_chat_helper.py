@@ -1,8 +1,4 @@
 import streamlit as st
-from langchain_ollama import ChatOllama
-from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
-from langchain_core.messages import SystemMessage
-
 
 def helper_streamlit_chat(chain_to_invoke):
     # # Set OpenAI API key from Streamlit secrets

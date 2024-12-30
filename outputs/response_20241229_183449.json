@@ -1,0 +1,77 @@
+{
+  "document_overview": "This document is an advertisement in Spanish for a 30% discount on hairdressing services at Club Militar's Tijeras Peluqueria. It lists various services offered, including color base, highlights, balayage, full color, hair treatments, and keratin treatments. It also specifies the salon's operating hours and contact information.",
+  "business_name": "Club Militar Tijeras Peluqueria",
+  "business_description": "Hair salon located in the main headquarters of Club Militar, offering a variety of hairdressing services.",
+  "products_and_services": [
+    {
+      "title": "Color base",
+      "description": "Base hair color application.",
+      "price": null,
+      "type": "service"
+    },
+    {
+      "title": "Iluminaciones",
+      "description": "Hair highlighting services.",
+      "price": null,
+      "type": "service"
+    },
+    {
+      "title": "Balayage",
+      "description": "Balayage hair coloring technique.",
+      "price": null,
+      "type": "service"
+    },
+    {
+      "title": "Todo en color",
+      "description": "Full hair coloring services.",
+      "price": null,
+      "type": "service"
+    },
+    {
+      "title": "Tratamientos capilares",
+      "description": "Various hair treatments.",
+      "price": null,
+      "type": "service"
+    },
+    {
+      "title": "Keratina",
+      "description": "Keratin hair treatment.",
+      "price": null,
+      "type": "service"
+    }
+  ],
+  "FAQ": [],
+  "schedule": [
+    {
+      "day": 2,
+      "start_time": 800,
+      "end_time": 1800
+    },
+    {
+      "day": 3,
+      "start_time": 800,
+      "end_time": 1800
+    },
+    {
+      "day": 4,
+      "start_time": 800,
+      "end_time": 1800
+    },
+    {
+      "day": 5,
+      "start_time": 800,
+      "end_time": 1800
+    },
+    {
+      "day": 6,
+      "start_time": 800,
+      "end_time": 1800
+    },
+    {
+      "day": 0,
+      "start_time": 800,
+      "end_time": 1800
+    }
+  ],
+  "domain": null
+}

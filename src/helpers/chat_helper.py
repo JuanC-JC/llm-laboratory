@@ -1,7 +1,7 @@
 from langchain_core.messages import HumanMessage
 from colorama import Fore, Style
 from datetime import datetime
-from helpers.conversation_helper import save_conversation
+from src.helpers.conversation_helper import save_conversation
 
 def chat_helpers(invoke_function, history: list = None, chat_metadata: dict = None, model: str = "", should_save: bool = False):
     metadata = {
