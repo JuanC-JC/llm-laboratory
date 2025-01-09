@@ -47,10 +47,15 @@ langchain-google-vertexai==2.0.9
 langchain-ollama==0.2.2
 langchain-openai==0.2.14
 langchain-text-splitters==0.3.4
+langgraph==0.2.61
+langgraph-checkpoint==2.0.9
+langgraph-checkpoint-postgres==2.0.9
+langgraph-sdk==0.1.48
 langsmith==0.2.6
 markdown-it-py==3.0.0
 MarkupSafe==3.0.2
 mdurl==0.1.2
+msgpack==1.1.0
 multidict==6.1.0
 narwhals==1.19.1
 numpy==2.2.1
@@ -63,6 +68,8 @@ pillow==11.0.0
 propcache==0.2.1
 proto-plus==1.25.0
 protobuf==5.29.2
+psycopg==3.2.3
+psycopg-pool==3.2.4
 pyarrow==18.1.0
 pyasn1==0.6.1
 pyasn1_modules==0.4.1
