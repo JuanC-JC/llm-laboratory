@@ -26,7 +26,7 @@ Format the output as continuous text, with clear paragraph breaks where appropri
   media_message = {
     "type": "media",
     "file_uri": image_path, # gs bucket file
-    "mime_type": "application/pdf"
+    "mime_type": "image/jpeg"
   }
 
   response = model.invoke([HumanMessage(content=[text_message, media_message])])
@@ -35,4 +35,4 @@ Format the output as continuous text, with clear paragraph breaks where appropri
 
 if __name__ == "__main__":
 
-  print(transform_to_txt("gs://bewe-lite-docsearch-test/capitanBarbas_id/capitan_barbas.pdf"))
+  print(transform_to_txt("gs://bewe_lite_files/lite/e8c23105-4bb9-48d2-b9c6-5da02fcbf81b.jpeg"))
